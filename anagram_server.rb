@@ -27,6 +27,7 @@ post "/anagrams" do
 end
 
 get "/anagrams" do 
-	anagrams = Anagram.all.to_a
-	Mustache.render(File.read("./views/anagrams.html"), {anagrams: anagrams})
+	# anagrams = Anagram.all.to_a
+	# Mustache.render(File.read("./views/anagrams.html"), {anagrams: anagrams})
+	"all anagrams here"
 end
